@@ -29,6 +29,9 @@
 }
 .nav a:hover {
     background-color: #0b0b0b;
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+    
 }
  /* about right flex  */
 /* .right {
@@ -43,7 +46,7 @@
 /* section left */
 .section-left {
     width: 73%;
-    margin: 1%;
+    margin: 0%;
     display: block;
     
 }
@@ -63,12 +66,12 @@
 /* section right  */
 .section-right {
     width: 25%;
-    margin: 1%;
 }
 .side {
+    margin: 15px;
     padding: 10px;
     background-color: bisque;
-    margin-bottom: 20px;
+    border-radius: 5px;
 }
 .section-right .popular {
     height: 40vh;
