@@ -33,5 +33,43 @@
 /* Body Section */
 .body-section {
     display: flex;
-    height: 300vh;
+    /* height: 300v; */
+    flex-direction: row;
+}
+/* section left */
+.section-left {
+    width: 73%;
+    margin: 1%;
+    display: block;
+    
+}
+.sec {
+    margin: 15px;
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+.sec p {
+    text-align: justify;
+    font-size: 1.5em;
+}
+.sec h1 {
+    font-size: 3em;
+}
+/* section right  */
+.section-right {
+    width: 25%;
+    margin: 1%;
+}
+.side {
+    padding: 10px;
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 30px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
 }
